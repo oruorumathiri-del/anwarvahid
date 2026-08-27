@@ -239,3 +239,9 @@ export default defineConfig({
     },
   },
 });
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/anwarvahid/', // Add this line
+  // ... your other config
+})
